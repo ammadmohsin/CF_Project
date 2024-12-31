@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+.list-heading {
+    margin-top: 20px;
+    font-size: 30px;
+    color: (122, 116, 116);
+}
+
+.link {
+    list-style-type: disc;
+    font-size: 30px;
+    margin: 5px 0px 20px 20px;
+}
+
+.link li {
+    margin: 46px 0px 45px -14px;
+}
+
+.link li a {
+    text-decoration: none;
+    color: rgb(122, 116, 116);
+
+}
+
+.navbar {
+    width: 100%;
+}
+
+.nav-item {
+    margin-left: -20px;
+    padding: 0px 20px 0px 20px;
+    transition-duration: 0.5s;
+}
+
+.nav-item:hover {
+    background-color: lightgreen;
+    scale: 1.2;
+    border-radius: 10px;
+
+    .nav-link {
+        color: black;
+    }
+}
+
+.nav-shadow {
+    box-shadow: 4px 0px 4px 4px black;
+}
+
+#nav {
+    display: flex;
+    padding: 1vw 20vw;
+    height: 70px;
+    flex-direction: row;
+    background-color: rgba(128, 233, 128, 0.924);
+    color: white;
+    justify-content: space-between;
+    box-shadow: 3px 3px 5px gray;
+    border-top-left-radius: 8px;
+    margin-left: .3vw;
+}
+
+/*    footer     */
+#bottom{
+    background-color: rgba(0, 0, 0, 0.897) ;
+    padding: 1.2vw 18vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  #links{
+    margin-top: 11px;
+  }
+  #links a{
+    text-decoration: none;
+    color: rgb(122, 116, 116);
+    padding-right:3px ;
+    font-size:14px ;
+    border-right: 2px solid rgb(76, 76, 76);
+  }
+  #logos img{
+    width: 40px;
+  }

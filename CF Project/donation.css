@@ -1,0 +1,237 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+}
+.list-heading{
+  margin-top: 20px;
+  font-size: 30px;
+  color:(122, 116, 116);
+}
+.link{
+  list-style-type:disc;
+  font-size: 30px;
+  margin: 5px 0px 20px 20px;    
+}
+.link li{
+  margin: 46px 0px 45px -14px;
+}
+.link li a{
+  text-decoration: none;
+  color: rgb(122, 116, 116);
+
+}
+.navbar{
+  width: 100%;
+}
+.nav-item{
+  margin-left: -20px;
+  padding: 0px 20px 0px 20px;
+  transition-duration:0.5s;
+}
+.nav-item:hover{
+  background-color: lightgreen;
+  scale: 1.2;
+  border-radius: 10px;
+  .nav-link{
+      color: black;
+  }
+}
+.nav-shadow{
+  box-shadow: 4px 0px 4px 4px black;
+}
+#nav{
+  display: flex;
+  padding:1vw 20vw ;
+  height: 70px;
+  flex-direction: row;
+  background-color:rgba(128, 233, 128, 0.924) ;
+  color: white;
+  justify-content: space-between;
+  box-shadow: 3px 3px 5px gray;
+  border-top-left-radius: 8px;
+  margin-left:.3vw;
+}
+#right{
+  display: flex;
+  align-items:center ;
+}
+#main{
+background-color: #02241b;
+  padding: 0px 17vw;
+}
+#image{
+  background-color: brown;
+  width: 100%;
+  height: 380px;
+}
+#image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+#txt{
+  width: 100%;
+  min-height: 90px;
+  background-color:#daf2f2; 
+  padding: 0px 4vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/* # */
+#txt h3{
+  margin-top: 20px;
+  color: #009F4C;
+  text-align: center;
+  font-size: 22px;
+  padding-bottom: .9vw;
+}
+#txt p{
+  font-size: 14px;
+  align-items: center;
+  text-align: center;
+  color: #39325e;
+}
+/* after first text*/
+#main_1{
+  /* border: 2px solid blue; */
+  background-color: #daf2f2;
+  padding: 3vw 0vw;
+  padding-left:5vw;
+  width: 100%;
+  /* background-color: burlywood; */
+  
+}
+#main_1 h1{
+  color:#009F4C;
+  padding-top: 1.8vw;
+  font-size: 26px;
+  text-transform: capitalize;
+}
+#main_1 input{
+  margin-top: 1.8vw;
+  margin-right:-35px;
+  transform: scale(1.5);
+}
+#main #main_1 label{
+  margin:0px 40px;  
+}
+#currency option{
+  color: black; 
+}
+#currency_type option{
+  font-size: 20px;
+}
+#currency_type #select{
+  border: none;
+  padding-bottom: 10px;
+  font-size: 25px;
+  border-bottom: 1.5px solid black;
+}
+#currency_type{
+  display: inline-block;  margin-left: 20px;
+}
+#amount{
+  border:none;
+  border-bottom: 1.5px solid black;
+  margin-left: 8vw;
+  padding-bottom: 4px;
+  padding-left: 3px;
+  
+}
+#donation_type_div h3{
+  font-weight:300;
+  margin-bottom:30px; 
+}
+#donation_type_div{
+    margin-left:90px;
+    text-transform: capitalize;
+    
+  }
+  #donation_type option{
+    opacity: 1;
+    font-weight: 500;
+    
+  } 
+ 
+  #donation_type{
+    text-transform: capitalize;
+    padding-bottom: 10px;
+    border: none;
+    font-size: 16px;
+    width: 200px;
+    border-bottom: 2.5px solid black;
+} 
+#user_details .input_div{
+  /* border: 2px solid red; */
+  display:flex;
+  margin-bottom: 30px;
+  flex-direction:row ;
+}
+#user_details .input_div input{
+  /* width: 200px; */
+  width: 200px;
+  margin-left: 4vw;
+  padding:6px 10px;
+  border: none;
+  border-bottom: 1.5px solid black;
+  /* border:2px solid blue; */
+}
+#card{
+  margin-top: 30px;
+  margin-left: 4vw;
+  display: flex;
+  flex-direction: row;
+}
+#card label{
+  opacity: .8;
+}
+#card input{
+  padding: 4px;
+  width: auto;
+  margin-right: 5px;
+  border: none;
+  border-bottom: 1.5px solid black;
+}
+#btn{
+  background-color: #32a332;
+  padding: 1vw 3vw;
+  border-radius: 3px;
+  cursor: pointer;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  margin: auto;
+  border: none;
+  margin-top: 4vw;
+  display: block;
+}
+
+/*    footer     */
+#bottom{
+  background-color: rgba(0, 0, 0, 0.897) ;
+  padding: 1.2vw 18vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#links{
+  margin-top: 11px;
+}
+#links a{
+  text-decoration: none;
+  color: rgb(122, 116, 116);
+  padding-right:3px ;
+  font-size:14px ;
+  border-right: 2px solid rgb(76, 76, 76);
+}
+#logos img{
+  width: 40px;
+}
+
+
+
